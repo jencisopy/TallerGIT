@@ -18,7 +18,7 @@ public class PotenciaTest {
     }
 
     /**
-     * Test of elevar method, of class Potencia.
+     * Test of calcular method, of class Potencia.
      */
     @Test
     public void testElevar() {
@@ -26,7 +26,7 @@ public class PotenciaTest {
         double base = 4.0;
         int exponente = 2;
         double expResult = 16.0;
-        double result = Potencia.elevar(base, exponente);
+        double result = Potencia.calcular(base, exponente);
         assertEquals(expResult, result, 0.0);
         //fail("The test case is a prototype.");
     }
