@@ -25,7 +25,7 @@ public class PotenciaTest {
         System.out.println("elevar");
         double base = 4.0;
         int exponente = 2;
-        double expResult = 17.0;
+        double expResult = 16.0;
         double result = Potencia.elevar(base, exponente);
         assertEquals(expResult, result, 0.0);
         //fail("The test case is a prototype.");
