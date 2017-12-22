@@ -11,8 +11,8 @@ package py.edu.snpp.tallercta2;
  */
 public class Multiplicacion {
 
-    public static double calcular(double a, double b) {
-        double resultado = a * b;
+    public static double calcular(double b, double c) {
+        double resultado = b * c;
         return resultado;
     }
 }
